@@ -1,0 +1,479 @@
+{
+  "found": {
+    "GEP Worldwide": {
+      "ats": "smartrecruiters",
+      "slug": "gepworldwide",
+      "open_jobs": 1
+    },
+    "Coupa": {
+      "ats": "lever",
+      "slug": "coupa",
+      "open_jobs": 37
+    },
+    "Ivalua": {
+      "ats": "greenhouse",
+      "slug": "ivalua",
+      "board_name": "Ivalua",
+      "open_jobs": 47
+    },
+    "Zip": {
+      "ats": "ashby",
+      "slug": "zip",
+      "open_jobs": 109
+    },
+    "o9 Solutions": {
+      "ats": "workable",
+      "slug": "o9-solutions",
+      "board_name": "o9 Solutions, Inc.",
+      "open_jobs": 0
+    },
+    "FourKites": {
+      "ats": "greenhouse",
+      "slug": "fourkites",
+      "board_name": "FourKites",
+      "open_jobs": 17
+    },
+    "CleverTap": {
+      "ats": "workable",
+      "slug": "clevertap",
+      "board_name": "CleverTap",
+      "open_jobs": 0
+    },
+    "WebEngage": {
+      "ats": "workable",
+      "slug": "webengage",
+      "board_name": "WebEngage",
+      "open_jobs": 0
+    },
+    "Netcore Cloud": {
+      "ats": "workable",
+      "slug": "netcore-cloud",
+      "board_name": "Netcore cloud",
+      "open_jobs": 0
+    },
+    "BrowserStack": {
+      "ats": "workable",
+      "slug": "browserstack",
+      "board_name": "BrowserStack",
+      "open_jobs": 0
+    },
+    "Gupshup": {
+      "ats": "workable",
+      "slug": "gupshup",
+      "board_name": "gupshup",
+      "open_jobs": 0
+    },
+    "IDfy": {
+      "ats": "workable",
+      "slug": "idfy",
+      "board_name": "IDfy",
+      "open_jobs": 0
+    },
+    "Fynd": {
+      "ats": "workable",
+      "slug": "fynd",
+      "board_name": "Fynd",
+      "open_jobs": 0
+    },
+    "Quantiphi": {
+      "ats": "workable",
+      "slug": "quantiphi",
+      "board_name": "Quantiphi",
+      "open_jobs": 0
+    },
+    "Fractal Analytics": {
+      "ats": "workable",
+      "slug": "fractal-analytics",
+      "board_name": "Fractal Analytics",
+      "open_jobs": 0
+    },
+    "Contentstack": {
+      "ats": "greenhouse",
+      "slug": "contentstack",
+      "board_name": "Contentstack",
+      "open_jobs": 10
+    },
+    "6sense": {
+      "ats": "greenhouse",
+      "slug": "6sense",
+      "board_name": "6sense",
+      "open_jobs": 28
+    },
+    "Demandbase": {
+      "ats": "ashby",
+      "slug": "demandbase",
+      "open_jobs": 14
+    },
+    "Mindtickle": {
+      "ats": "lever",
+      "slug": "mindtickle",
+      "open_jobs": 21
+    },
+    "LeadSquared": {
+      "ats": "workable",
+      "slug": "leadsquared",
+      "board_name": "LeadSquared",
+      "open_jobs": 0
+    },
+    "Freshworks": {
+      "ats": "smartrecruiters",
+      "slug": "freshworks",
+      "open_jobs": 126
+    },
+    "Chargebee": {
+      "ats": "workable",
+      "slug": "chargebee",
+      "board_name": "ChargeBee",
+      "open_jobs": 0
+    },
+    "Icertis": {
+      "ats": "workable",
+      "slug": "icertis",
+      "board_name": "Icertis",
+      "open_jobs": 0
+    },
+    "Sprinto": {
+      "ats": "workable",
+      "slug": "sprinto",
+      "board_name": "Sprinto",
+      "open_jobs": 0
+    },
+    "Rocketlane": {
+      "ats": "workable",
+      "slug": "rocketlane",
+      "board_name": "Rocketlane",
+      "open_jobs": 0
+    },
+    "SpotDraft": {
+      "ats": "ashby",
+      "slug": "spotdraft",
+      "open_jobs": 14
+    },
+    "Atlan": {
+      "ats": "ashby",
+      "slug": "atlan",
+      "open_jobs": 7
+    },
+    "Flosum": {
+      "ats": "workable",
+      "slug": "flosum",
+      "board_name": "Flosum",
+      "open_jobs": 158
+    },
+    "Codvo.ai": {
+      "ats": "workable",
+      "slug": "codvo",
+      "board_name": "codvo",
+      "open_jobs": 0
+    },
+    "Portcast": {
+      "ats": "lever",
+      "slug": "portcast",
+      "open_jobs": 10
+    },
+    "Ema": {
+      "ats": "ashby",
+      "slug": "ema",
+      "open_jobs": 39
+    },
+    "Lyzr": {
+      "ats": "ashby",
+      "slug": "lyzr",
+      "open_jobs": 0
+    },
+    "Levelpath": {
+      "ats": "ashby",
+      "slug": "levelpath",
+      "open_jobs": 23
+    },
+    "Fairmarkit": {
+      "ats": "greenhouse",
+      "slug": "fairmarkit",
+      "board_name": "Fairmarkit",
+      "open_jobs": 5
+    },
+    "Keelvar": {
+      "ats": "workable",
+      "slug": "keelvar",
+      "board_name": "Keelvar",
+      "open_jobs": 0
+    },
+    "Globality": {
+      "ats": "workable",
+      "slug": "globality",
+      "board_name": "Globality",
+      "open_jobs": 0
+    },
+    "Tonkean": {
+      "ats": "lever",
+      "slug": "tonkean",
+      "open_jobs": 3
+    },
+    "Sievo": {
+      "ats": "ashby",
+      "slug": "sievo",
+      "open_jobs": 12
+    },
+    "Blue Yonder": {
+      "ats": "workable",
+      "slug": "blueyonder",
+      "board_name": "Blueyonder",
+      "open_jobs": 0
+    },
+    "Kinaxis": {
+      "ats": "workable",
+      "slug": "kinaxis",
+      "board_name": "Kinaxis",
+      "open_jobs": 0
+    },
+    "project44": {
+      "ats": "greenhouse",
+      "slug": "project44",
+      "board_name": "project44",
+      "open_jobs": 27
+    },
+    "Locus": {
+      "ats": "workable",
+      "slug": "locus",
+      "board_name": "Supply Chain Management in E-commerce | Locus",
+      "open_jobs": 0
+    },
+    "Whatfix": {
+      "ats": "smartrecruiters",
+      "slug": "whatfix",
+      "open_jobs": 1
+    },
+    "MoEngage": {
+      "ats": "workable",
+      "slug": "moengage",
+      "board_name": "MoEngage",
+      "open_jobs": 0
+    },
+    "Capillary Technologies": {
+      "ats": "workable",
+      "slug": "capillary-technologies",
+      "board_name": "Capillary Technologies",
+      "open_jobs": 0
+    },
+    "Darwinbox": {
+      "ats": "workable",
+      "slug": "darwinbox",
+      "board_name": "DarwinBox",
+      "open_jobs": 0
+    },
+    "Kissflow": {
+      "ats": "workable",
+      "slug": "kissflow",
+      "board_name": "Kissflow",
+      "open_jobs": 0
+    },
+    "Druva": {
+      "ats": "greenhouse",
+      "slug": "druva",
+      "board_name": "Druva",
+      "open_jobs": 31
+    },
+    "Postman": {
+      "ats": "workable",
+      "slug": "postman",
+      "board_name": "Postman",
+      "open_jobs": 0
+    },
+    "LambdaTest": {
+      "ats": "workable",
+      "slug": "lambdatest",
+      "board_name": "LambdaTest",
+      "open_jobs": 0
+    },
+    "Zluri": {
+      "ats": "workable",
+      "slug": "zluri",
+      "board_name": "Zluri",
+      "open_jobs": 0
+    },
+    "Observe.AI": {
+      "ats": "greenhouse",
+      "slug": "observeai",
+      "board_name": "Observe.AI",
+      "open_jobs": 8
+    },
+    "Yellow.ai": {
+      "ats": "workable",
+      "slug": "yellow",
+      "board_name": "Yellow",
+      "open_jobs": 0
+    },
+    "Sarvam AI": {
+      "ats": "ashby",
+      "slug": "sarvam",
+      "open_jobs": 45
+    },
+    "Exotel": {
+      "ats": "workable",
+      "slug": "exotel",
+      "board_name": "Exotel",
+      "open_jobs": 0
+    },
+    "Hevo Data": {
+      "ats": "lever",
+      "slug": "hevodata",
+      "open_jobs": 53
+    },
+    "Multiplier": {
+      "ats": "workable",
+      "slug": "multiplier",
+      "board_name": "Multiplier",
+      "open_jobs": 0
+    },
+    "Zeta": {
+      "ats": "lever",
+      "slug": "zeta",
+      "open_jobs": 30
+    },
+    "Razorpay": {
+      "ats": "workable",
+      "slug": "razorpay",
+      "board_name": "Razorpay",
+      "open_jobs": 0
+    },
+    "Juspay": {
+      "ats": "workable",
+      "slug": "juspay",
+      "board_name": "Juspay",
+      "open_jobs": 0
+    },
+    "HyperVerge": {
+      "ats": "workable",
+      "slug": "hyperverge",
+      "board_name": "HyperVerge",
+      "open_jobs": 0
+    },
+    "Highspot": {
+      "ats": "workable",
+      "slug": "highspot",
+      "board_name": "Highspot",
+      "open_jobs": 0
+    },
+    "Seismic": {
+      "ats": "ashby",
+      "slug": "seismic",
+      "open_jobs": 0
+    },
+    "Gong": {
+      "ats": "greenhouse",
+      "slug": "gongio",
+      "board_name": "Gong.io",
+      "open_jobs": 90
+    },
+    "Clari": {
+      "ats": "workable",
+      "slug": "clari",
+      "board_name": "clari",
+      "open_jobs": 0
+    },
+    "Outreach": {
+      "ats": "lever",
+      "slug": "outreach",
+      "open_jobs": 22
+    },
+    "Sprinklr": {
+      "ats": "workable",
+      "slug": "sprinklr",
+      "board_name": "Sprinklr",
+      "open_jobs": 0
+    },
+    "Zendesk": {
+      "ats": "workable",
+      "slug": "zendesk",
+      "board_name": "Zendesk",
+      "open_jobs": 0
+    },
+    "Atlassian": {
+      "ats": "workable",
+      "slug": "atlassian",
+      "board_name": "atlassian",
+      "open_jobs": 0
+    },
+    "Salesforce": {
+      "ats": "workable",
+      "slug": "salesforce",
+      "board_name": "salesforce",
+      "open_jobs": 0
+    },
+    "ServiceNow": {
+      "ats": "smartrecruiters",
+      "slug": "servicenow",
+      "open_jobs": 686
+    },
+    "Rippling": {
+      "ats": "workable",
+      "slug": "rippling",
+      "board_name": "Rippling",
+      "open_jobs": 0
+    },
+    "Deel": {
+      "ats": "ashby",
+      "slug": "deel",
+      "open_jobs": 0
+    },
+    "Remote.com": {
+      "ats": "greenhouse",
+      "slug": "remote",
+      "board_name": "General Assembly Remote Jobs ",
+      "open_jobs": 2
+    },
+    "Oyster HR": {
+      "ats": "ashby",
+      "slug": "oyster",
+      "open_jobs": 24
+    },
+    "GitLab": {
+      "ats": "greenhouse",
+      "slug": "gitlab",
+      "board_name": "GitLab",
+      "open_jobs": 239
+    },
+    "Elastic": {
+      "ats": "greenhouse",
+      "slug": "elastic",
+      "board_name": "Elastic",
+      "open_jobs": 403
+    },
+    "Zapier": {
+      "ats": "ashby",
+      "slug": "zapier",
+      "open_jobs": 12
+    },
+    "Databricks": {
+      "ats": "greenhouse",
+      "slug": "databricks",
+      "board_name": "Databricks",
+      "open_jobs": 896
+    },
+    "Snowflake": {
+      "ats": "ashby",
+      "slug": "snowflake",
+      "open_jobs": 357
+    },
+    "Zenara Health": {
+      "ats": "workable",
+      "slug": "zenara-health",
+      "board_name": "Zenara Health",
+      "open_jobs": 6
+    }
+  },
+  "not_found": [
+    "Jaggaer",
+    "Haptik (Jio)",
+    "Factors.ai",
+    "RapidCanvas",
+    "Pactum",
+    "Spendflo",
+    "Simfoni",
+    "Scrut Automation",
+    "Uniphore",
+    "SuperOps",
+    "Perfios",
+    "M2P Fintech"
+  ]
+}
