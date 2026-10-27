@@ -1,0 +1,71 @@
+# Job Radar settings. Edit these to change what gets collected and kept.
+# Rules mirror the Job Search Brief (v1.5): Director / VP only, Mumbai / Navi Mumbai or remote-India,
+# posted in the last 14 days, salary floor Rs 50 LPA total (when a salary is shown).
+
+max_age_days: 14
+shortlist_size: 40          # most roles passed on to Claude per run
+seen_memory_days: 45        # a role already shown is not shown again for this long
+
+search_terms:               # used on LinkedIn, Indeed, Naukri, iimjobs
+  - marketing director
+  - vp marketing
+  - head of marketing
+  - demand generation director
+  - head of growth marketing
+  - go-to-market director
+
+sources:
+  linkedin: true
+  indeed: true
+  naukri: true
+  google: false             # Google Jobs is often blocked from servers; turn on to try
+  iimjobs: true             # Apify, needs APIFY_TOKEN
+  wellfound: true           # Apify, needs APIFY_TOKEN
+  naukri_apify: fallback    # fallback = only if Naukri via JobSpy returns nothing; always; off
+  himalayas: true
+  remoteok: true
+  weworkremotely: true
+  watchlist_boards: true
+
+apify:
+  max_usd_per_actor_run: 0.30   # hard spending cap per Apify run
+  iimjobs_max_jobs: 60
+  wellfound_max_results: 40
+  naukri_max_per_term: 30
+
+# ---------- Filters ----------
+title:
+  # must match one of these (seniority)
+  seniority: '\b(director|vp|v\.p\.|vice[- ]president|head|chief marketing|cmo|svp|evp)\b'
+  # and one of these (function)
+  function: '\b(marketing|demand|growth|gtm|go[- ]to[- ]market|revenue|pipeline|abm|cmo|chief marketing)\b'
+  # dropped if any of these appear
+  exclude: '\b(associate director|assistant|asst|deputy|manager|intern|trainee|executive assistant|sales director|director of sales|head of sales|engineering|engineer|finance|hr|human resources|legal|recruit|talent|medical|clinical|pharma rep)\b'
+  # specialist roles dropped unless the title also has a core GTM word
+  specialist: '\b(content|social media|brand|communications|public relations|pr|seo|creative|events|influencer|trade marketing|retail marketing)\b'
+  core: '\b(demand|growth|gtm|go[- ]to[- ]market|revenue|b2b|enterprise|head of marketing|marketing director|director of marketing|vp marketing|vp of marketing|vice president marketing|vice president of marketing|cmo|chief marketing)\b'
+
+location:
+  mumbai: '\b(mumbai|bombay|thane|powai|andheri|bkc|lower parel|malad|goregaon|worli)\b'
+  navi_mumbai: '\b(navi mumbai|kharghar|belapur|vashi|airoli|mahape|ghansoli|turbhe|nerul|panvel|sanpada|kopar khairane|ulwe)\b'
+  # Bengaluru / Pune hybrid were allowed on 19 Oct 2026 (Preferences doc). Set to '' to turn off.
+  extra_hybrid_cities: '\b(bengaluru|bangalore|pune)\b'
+  remote_words: '\b(remote|work from home|wfh|anywhere|distributed|worldwide)\b'
+  india_ok: '\b(india|apac|asia|anywhere|worldwide|global|ist)\b'
+  foreign_only: '\b(us|usa|united states|north america|canada|uk|united kingdom|europe|emea|eu|latam|americas|australia|germany|france|singapore only)\b'
+
+salary:
+  floor_inr: 5000000         # Rs 50 LPA total
+  preferred_inr: 6000000     # Rs 60 LPA
+  usd_to_inr: 84
+
+# ---------- Rough pre-score (Claude re-scores the shortlist) ----------
+industry_high: '\b(saas|ai|artificial intelligence|agentic|procurement|source[- ]to[- ]pay|martech|salestech|revtech|fintech|b2b software|enterprise software|platform)\b'
+industry_medium: '\b(supply chain|logistics|manufacturing|analytics|data|workflow|automation)\b'
+skills: ['demand gen', 'demand generation', 'abm', 'account[- ]based', 'pipeline', 'agentic', 'gtm', 'go-to-market', 'martech', 'hubspot', 'salesforce', 'sales alignment', 'enablement', 'revenue']
+
+# ---------- Watchlist company boards (free public APIs, no key) ----------
+watchlist:
+  greenhouse: [6sense, gongio, gitlab, databricks]
+  lever: [mindtickle, portcast, hevodata]
+  ashby: [atlan, levelpath, sarvam, deel]
