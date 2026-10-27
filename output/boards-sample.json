@@ -1,0 +1,327 @@
+{
+ "ashby:ema": {
+  "count": 39,
+  "sample": [
+   [
+    "Solutions Architect",
+    "India - Bengaluru",
+    "https://jobs.ashbyhq.com/ema/aefe11bd-3e23-401b-a08b-b75729a3c3e4"
+   ],
+   [
+    "Product designer",
+    "India - Bengaluru",
+    "https://jobs.ashbyhq.com/ema/36c17dbb-168d-4654-9a4e-0be64cacd02a"
+   ],
+   [
+    " Devops Engineer",
+    "Bengaluru office",
+    "https://jobs.ashbyhq.com/ema/4524951e-f795-49d8-b147-8bcbc46ef534"
+   ],
+   [
+    "Software Engineer, Machine Learning",
+    "Bengaluru office",
+    "https://jobs.ashbyhq.com/ema/88d004d9-50a9-41ee-a618-03855001a9be"
+   ]
+  ]
+ },
+ "ashby:zip": {
+  "count": 109,
+  "sample": [
+   [
+    "Senior / Principal Product Manager",
+    "San Francisco",
+    "https://jobs.ashbyhq.com/zip/b20653a0-1a06-4c81-a3a0-2ef41e728b3b"
+   ],
+   [
+    "Solution Engineer (Pre-Sales)",
+    "Remote - West Coast",
+    "https://jobs.ashbyhq.com/zip/92c2b94a-3963-4c1e-8e5a-b83f548f8f0d"
+   ],
+   [
+    "Software Engineer, Frontend (All Levels)",
+    "San Francisco",
+    "https://jobs.ashbyhq.com/zip/0c1b3417-9ba4-4630-8590-f6b45c40310a"
+   ],
+   [
+    "Senior/Staff Product Designer",
+    "San Francisco",
+    "https://jobs.ashbyhq.com/zip/c6307162-44d9-47f3-a147-3adb39adc970"
+   ]
+  ]
+ },
+ "ashby:snowflake": {
+  "count": 357,
+  "sample": [
+   [
+    "Software Engineer - Database Engineering",
+    "US-CA-Menlo Park",
+    "https://jobs.ashbyhq.com/snowflake/db1375f0-ea5d-404a-b640-259f94dbc995"
+   ],
+   [
+    "Software Engineer - Backend",
+    "US-CA-Menlo Park",
+    "https://jobs.ashbyhq.com/snowflake/3eb872af-0ab1-4986-8f72-e7321fcd1538"
+   ],
+   [
+    "Account Executive, Enterprise Acquisition",
+    "US-NY-New York",
+    "https://jobs.ashbyhq.com/snowflake/58aeb127-c600-4dc7-861f-6924f4125dce"
+   ],
+   [
+    "Account Executive, Latam",
+    "MX-Mexico-Remote",
+    "https://jobs.ashbyhq.com/snowflake/ff47c9d5-1468-434c-96bc-106dce9b7977"
+   ]
+  ]
+ },
+ "lever:zeta": {
+  "count": 30,
+  "sample": [
+   [
+    "Associate / Sr. Associate- People Experience",
+    "Bangalore - WF",
+    "https://jobs.lever.co/zeta/42c3b097-4b5c-48b6-83f6-04f09f1cab56"
+   ],
+   [
+    "Associate Director - Legal",
+    "Mumbai / Bangalore",
+    "https://jobs.lever.co/zeta/892ad297-ed0e-4f9c-98b8-fd30358a5517"
+   ],
+   [
+    "Associate Legal",
+    "Mumbai / Bangalore",
+    "https://jobs.lever.co/zeta/c6ff3085-f2fb-4c56-9fcd-613a5a32c069"
+   ],
+   [
+    "Cloud Network Engineer II",
+    "Hyderabad",
+    "https://jobs.lever.co/zeta/dad16204-8051-4517-9e50-966f329045b5"
+   ]
+  ]
+ },
+ "lever:outreach": {
+  "count": 22,
+  "sample": [
+   [
+    "Account Executive, Commercial",
+    "Seattle, WA",
+    "https://jobs.lever.co/outreach/c9d67492-439a-4f98-b9a2-89bd3853d95d"
+   ],
+   [
+    "Director of Applied Science and Engineering - Knowledge Graphs & AI",
+    "Hyderabad",
+    "https://jobs.lever.co/outreach/8698b1b3-c634-47d7-84da-7bcb722743dc"
+   ],
+   [
+    "Director of Product Strategy",
+    "Seattle, WA",
+    "https://jobs.lever.co/outreach/18210dbb-a2ad-49a8-9ee9-c31ad14da0f6"
+   ],
+   [
+    "Director, Product Management \u2013 Conversational Intelligence",
+    "Seattle, WA",
+    "https://jobs.lever.co/outreach/3c27d8b2-bdef-4a0c-8507-092ef90fab33"
+   ]
+  ]
+ },
+ "lever:coupa": {
+  "count": 37,
+  "sample": [
+   [
+    "Account Development Representative - 11887",
+    "Sydney, Australia",
+    "https://jobs.lever.co/coupa/d17fb20e-152c-4583-9add-c8bc779f658d"
+   ],
+   [
+    "AI-Native Functional Consultants Lead",
+    "Prague",
+    "https://jobs.lever.co/coupa/a33ef699-17ab-430d-9c77-a15c7aab07b7"
+   ],
+   [
+    "AVP - Enterprise",
+    "Australia",
+    "https://jobs.lever.co/coupa/56784094-c2cb-4eb4-b282-f700b4823d54"
+   ],
+   [
+    "Collections Associate - 11937",
+    "Poland",
+    "https://jobs.lever.co/coupa/d19b7eac-585a-4482-9919-ba2d5eafcae6"
+   ]
+  ]
+ },
+ "workable:flosum:total": 158,
+ "workable:flosum": {
+  "count": 10,
+  "sample": [
+   [
+    "Enterprise Account Manager (Strategic Renewals) - US",
+    "",
+    "6F1B3333BC"
+   ],
+   [
+    "Enterprise Account Manager (Strategic Renewals) - Canada",
+    "",
+    "5B35C53E38"
+   ],
+   [
+    "Account Manager (UK)",
+    "",
+    "D4FB985400"
+   ],
+   [
+    "Enterprise Account Manager (Strategic Renewals) - UK",
+    "",
+    "E0A09274E2"
+   ]
+  ]
+ },
+ "workable:zenara-health:total": 6,
+ "workable:zenara-health": {
+  "count": 6,
+  "sample": [
+   [
+    "AI-Native Software Engineer, QA Automation",
+    "",
+    "B35BCEE547"
+   ],
+   [
+    "Senior Security & Compliance - Healthcare | Zenara Health",
+    "",
+    "15BC99C5D8"
+   ],
+   [
+    "AI-Native Platform Engineer - DevOps, Security & Compliance | Zenara Health",
+    "",
+    "20FD8BF043"
+   ],
+   [
+    "Product & Delivery Lead - UI/UX | Zenara Health",
+    "",
+    "29FC7462B5"
+   ]
+  ]
+ },
+ "ashby:oyster": {
+  "count": 24,
+  "sample": [
+   [
+    "Accounts Payable Analyst",
+    "Spain",
+    "https://jobs.ashbyhq.com/oyster/83b10c34-8c44-4c58-89d4-5e99be716c76"
+   ],
+   [
+    "Oyster Talent Community Sign Up",
+    "Any Location",
+    "https://jobs.ashbyhq.com/oyster/9069b5af-0e3e-412c-b665-41c0fc4aef44"
+   ],
+   [
+    "Customer Success Manager (Americas)",
+    "The Americas",
+    "https://jobs.ashbyhq.com/oyster/65e78677-d98f-4dd7-ba5c-166dbb677c61"
+   ],
+   [
+    "Legal Counsel (Employment Products)",
+    "EMEA",
+    "https://jobs.ashbyhq.com/oyster/f96014b7-68e5-45fe-9c53-1dea5775fc66"
+   ]
+  ]
+ },
+ "ashby:sievo": {
+  "count": 12,
+  "sample": [
+   [
+    "Enterprise Account Executive",
+    "Paris",
+    "https://jobs.ashbyhq.com/sievo/17f15bcb-5783-452d-8f02-6cb07eb6c656"
+   ],
+   [
+    "Key Account Manager",
+    "Paris",
+    "https://jobs.ashbyhq.com/sievo/2d660d1a-11ea-4abd-896c-f8fd88610e1d"
+   ],
+   [
+    "Senior (Lead) Data Platform Engineer",
+    "Helsinki",
+    "https://jobs.ashbyhq.com/sievo/125173fe-7044-4b77-b300-62cb7308f3cd"
+   ],
+   [
+    "Senior (Lead) Cloud Data Engineer",
+    "Helsinki",
+    "https://jobs.ashbyhq.com/sievo/b2c37318-ae2a-4005-a63f-211a80245b9e"
+   ]
+  ]
+ },
+ "ashby:zapier": {
+  "count": 12,
+  "sample": [
+   [
+    "Finance Manager, Marketing",
+    "NAMER",
+    "https://jobs.ashbyhq.com/zapier/cb1aec2c-05cd-4598-8117-bd1f7ed9a49f"
+   ],
+   [
+    "Sales Assist Representative",
+    "APAC",
+    "https://jobs.ashbyhq.com/zapier/6adee270-03bf-4b1b-915b-eba5fb56d1b6"
+   ],
+   [
+    "Account Executive, Mid Market",
+    "NAMER",
+    "https://jobs.ashbyhq.com/zapier/d4576c10-a27e-47fa-a056-30c898b9e672"
+   ],
+   [
+    "Automation Strategist, Customer Success",
+    "HQ",
+    "https://jobs.ashbyhq.com/zapier/45b2c110-f8e0-497a-914c-72fddf447ed0"
+   ]
+  ]
+ },
+ "lever:tonkean": {
+  "count": 3,
+  "sample": [
+   [
+    "Senior Product Manager",
+    "Tel Aviv",
+    "https://jobs.lever.co/tonkean/2fc80472-de52-49ff-8351-ee12979a1d51"
+   ],
+   [
+    "Senior Software Engineer",
+    "Tel Aviv",
+    "https://jobs.lever.co/tonkean/750876a2-dc08-4737-b3ef-f26f79452d69"
+   ],
+   [
+    "Workplace & Talent Partner - Maternity Leave Replacement",
+    "Tel Aviv",
+    "https://jobs.lever.co/tonkean/21b00ce8-3b3c-47b7-8c58-b20e2146aa32"
+   ]
+  ]
+ },
+ "smartrecruiters:gepworldwide": {
+  "count": 1,
+  "sample": [
+   [
+    ".Net Software Engineer",
+    "Clark",
+    "GEP Worldwide"
+   ]
+  ]
+ },
+ "smartrecruiters:whatfix": {
+  "count": 1,
+  "sample": [
+   [
+    "test",
+    "Padur",
+    "Whatfix"
+   ]
+  ]
+ },
+ "ashby:deel": {
+  "count": 0,
+  "sample": []
+ },
+ "ashby:lyzr": {
+  "count": 0,
+  "sample": []
+ }
+}
