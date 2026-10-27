@@ -3,6 +3,9 @@ name: Check job boards
 on:
   workflow_dispatch: {}
 
+permissions:
+  contents: write
+
 jobs:
   sample:
     runs-on: ubuntu-latest
@@ -14,3 +17,11 @@ jobs:
           python-version: "3.12"
       - run: pip install requests
       - run: python tools/sample_boards.py
+      - name: Save
+        run: |
+          git config user.name "job-radar-bot"
+          git config user.email "job-radar-bot@users.noreply.github.com"
+          git add output/boards-sample.json
+          git diff --cached --quiet || git commit -m "Board sample results"
+          git pull --rebase
+          git push

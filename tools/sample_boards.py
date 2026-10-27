@@ -24,4 +24,4 @@ for ats, slug in CHECK:
         out[f"{ats}:{slug}"] = {"count": len(jobs), "sample": jobs[:4]}
     except Exception as e:
         out[f"{ats}:{slug}"] = f"error {e}"
-print(json.dumps(out, indent=1))
+import pathlib; pathlib.Path("output/boards-sample.json").write_text(json.dumps(out, indent=1))
