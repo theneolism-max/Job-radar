@@ -1,53 +1,53 @@
 {
   "jobspy:linkedin": {
-    "fetched": 240,
-    "secs": 151
+    "fetched": 140,
+    "secs": 113
   },
   "jobspy:indeed": {
     "fetched": 92,
-    "secs": 20
+    "secs": 21
   },
   "jobspy:naukri": {
     "fetched": 219,
     "secs": 97
   },
   "iimjobs": {
-    "fetched": 0,
-    "error": "RuntimeError: APIFY_TOKEN not set"
+    "fetched": 60,
+    "secs": 13
   },
   "wellfound": {
-    "fetched": 0,
-    "error": "RuntimeError: APIFY_TOKEN not set"
+    "fetched": 25,
+    "secs": 86
   },
   "himalayas": {
     "fetched": 68,
-    "secs": 4
+    "secs": 5
   },
   "remoteok": {
     "fetched": 100,
-    "secs": 0
+    "secs": 1
   },
   "weworkremotely": {
     "fetched": 135,
-    "secs": 1
+    "secs": 3
   },
   "watchlist_boards": {
     "fetched": 1412,
-    "secs": 4
+    "secs": 25
   },
   "_summary": {
     "date": "2026-10-27",
-    "fetched": 2266,
-    "passed": 56,
-    "new": 56,
+    "fetched": 2251,
+    "passed": 61,
+    "new": 61,
     "shortlisted": 40,
     "rejected_by": {
-      "title": 2021,
+      "title": 2040,
       "location": 42,
-      "specialist": 4,
-      "title_excluded": 7,
+      "specialist": 3,
+      "title_excluded": 8,
       "too_old": 30,
-      "below_floor": 8
+      "below_floor": 18
     }
   }
 }
