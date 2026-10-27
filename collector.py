@@ -112,13 +112,15 @@ def get_json(url, **kw):
     return r.json()
 
 
-def run_apify(actor: str, run_input: dict) -> list[dict]:
-    """Run an Apify actor synchronously with a hard spend cap; return dataset items."""
+def run_apify(actor: str, run_input: dict, cap_usd: float | None = None) -> list[dict]:
+    """Run an Apify actor synchronously with a hard spend cap; return dataset items.
+    Real spend is bounded by each actor's own max-jobs setting; the cap is a safety net."""
     url = f"https://api.apify.com/v2/acts/{actor.replace('/', '~')}/run-sync-get-dataset-items"
-    params = {"timeout": 280, "maxTotalChargeUsd": CFG["apify"]["max_usd_per_actor_run"], "clean": "true"}
+    params = {"timeout": 280, "maxTotalChargeUsd": cap_usd or CFG["apify"]["max_usd_per_actor_run"], "clean": "true"}
     r = requests.post(url, params=params, json=run_input, timeout=320,
                       headers={"Authorization": f"Bearer {APIFY_TOKEN}"})
-    r.raise_for_status()
+    if r.status_code >= 400:
+        raise RuntimeError(f"Apify {r.status_code}: {r.text[:300]}")
     return r.json()
 
 
@@ -296,7 +298,8 @@ def foundit() -> list[Job]:
     items = run_apify("themineworks/foundit-jobs-scraper", {
         "searchKeywords": CFG["search_terms"], "location": "Mumbai,Navi Mumbai",
         "experienceMinYears": 12, "postedWithinDays": "15", "employmentType": "Full Time",
-        "maxJobs": CFG["apify"]["foundit_max_jobs"], "includeJobDescription": False})
+        "maxJobs": CFG["apify"]["foundit_max_jobs"], "includeJobDescription": False},
+        cap_usd=0.50)   # this actor refuses caps below $0.50; 60 jobs cost ~$0.15
     out = []
     for i in items:
         if not (i.get("title") and i.get("job_id")):
@@ -345,7 +348,7 @@ def yc_startups() -> list[Job]:
     for extra in ({"locations": ["India"]}, {"locationTypes": ["remote"]}):
         items = run_apify("nomad-agent/ycombinator-was-scraper", {
             "schemaVersion": "nomad-agent-simple-inventory-search-v2", "queries": ["marketing", "growth", "go to market"],
-            "postedWithin": f"{CFG['max_age_days']} days", "maxItems": 60,
+            "postedWithin": f"{CFG['max_age_days']}d", "maxItems": 60,
             "dedupe": {"enabled": False, "key": ""}, **extra})
         for i in items:
             allowed = ", ".join(i.get("applicantLocations") or [])
