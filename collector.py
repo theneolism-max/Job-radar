@@ -419,30 +419,60 @@ def weworkremotely() -> list[Job]:
 
 @guarded("watchlist_boards")
 def watchlist_boards() -> list[Job]:
+    """Read watchlist companies' own job boards. config: watchlist.<ats>: {slug: Company Name}."""
     out, wl = [], CFG["watchlist"]
-    for board in wl.get("greenhouse", []):
+
+    def each(ats):
+        return (wl.get(ats) or {}).items()
+
+    for slug, name in each("greenhouse"):
         try:
-            for j in get_json(f"https://boards-api.greenhouse.io/v1/boards/{board}/jobs").get("jobs", []):
-                out.append(Job(f"greenhouse:{board}", j.get("title", ""), j.get("company_name") or board,
+            for j in get_json(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs").get("jobs", []):
+                out.append(Job(f"greenhouse:{slug}", j.get("title", ""), name,
                                (j.get("location") or {}).get("name", ""), j.get("absolute_url", ""),
                                to_dt(j.get("first_published") or j.get("updated_at"))))
         except Exception as e:  # noqa: BLE001
-            log(f"greenhouse:{board}", error=str(e)[:120])
-    for co in wl.get("lever", []):
+            log(f"greenhouse:{slug}", error=str(e)[:120])
+    for slug, name in each("lever"):
         try:
-            for j in get_json(f"https://api.lever.co/v0/postings/{co}", params={"mode": "json"}):
+            for j in get_json(f"https://api.lever.co/v0/postings/{slug}", params={"mode": "json"}):
                 c = j.get("categories") or {}
-                out.append(Job(f"lever:{co}", j.get("text", ""), co, c.get("location", ""), j.get("hostedUrl", ""),
+                out.append(Job(f"lever:{slug}", j.get("text", ""), name, c.get("location", ""), j.get("hostedUrl", ""),
                                to_dt(j.get("createdAt")), remote=(j.get("workplaceType") == "remote")))
         except Exception as e:  # noqa: BLE001
-            log(f"lever:{co}", error=str(e)[:120])
-    for org in wl.get("ashby", []):
+            log(f"lever:{slug}", error=str(e)[:120])
+    for slug, name in each("ashby"):
         try:
-            for j in get_json(f"https://api.ashbyhq.com/posting-api/job-board/{org}").get("jobs", []):
-                out.append(Job(f"ashby:{org}", j.get("title", ""), org, j.get("location", ""),
+            for j in get_json(f"https://api.ashbyhq.com/posting-api/job-board/{slug}").get("jobs", []):
+                out.append(Job(f"ashby:{slug}", j.get("title", ""), name, j.get("location", ""),
                                j.get("jobUrl", ""), to_dt(j.get("publishedAt")), remote=bool(j.get("isRemote"))))
         except Exception as e:  # noqa: BLE001
-            log(f"ashby:{org}", error=str(e)[:120])
+            log(f"ashby:{slug}", error=str(e)[:120])
+    for slug, name in each("smartrecruiters"):
+        try:
+            d = get_json(f"https://api.smartrecruiters.com/v1/companies/{slug}/postings",
+                         params={"q": "marketing", "limit": 100})
+            for j in d.get("content", []):
+                loc = j.get("location") or {}
+                out.append(Job(f"smartrecruiters:{slug}", j.get("name", ""), name,
+                               ", ".join(x for x in (loc.get("city"), loc.get("country")) if x),
+                               f"https://jobs.smartrecruiters.com/{slug}/{j.get('id')}",
+                               to_dt(j.get("releasedDate")), remote=bool(loc.get("remote"))))
+        except Exception as e:  # noqa: BLE001
+            log(f"smartrecruiters:{slug}", error=str(e)[:120])
+    for slug, name in each("workable"):
+        try:
+            r = requests.post(f"https://apply.workable.com/api/v3/accounts/{slug}/jobs",
+                              json={"query": "marketing"}, headers=UA, timeout=40)
+            r.raise_for_status()
+            for j in r.json().get("results", []):
+                loc = j.get("location") or {}
+                out.append(Job(f"workable:{slug}", j.get("title", ""), name,
+                               ", ".join(x for x in (loc.get("city"), loc.get("country")) if x),
+                               f"https://apply.workable.com/{slug}/j/{j.get('shortcode')}/",
+                               to_dt(j.get("published")), remote=bool(j.get("remote"))))
+        except Exception as e:  # noqa: BLE001
+            log(f"workable:{slug}", error=str(e)[:120])
     return out
 
 

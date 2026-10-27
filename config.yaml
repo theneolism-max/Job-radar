@@ -72,7 +72,45 @@ industry_medium: '\b(supply chain|logistics|manufacturing|analytics|data|workflo
 skills: ['demand gen', 'demand generation', 'abm', 'account[- ]based', 'pipeline', 'agentic', 'gtm', 'go-to-market', 'martech', 'hubspot', 'salesforce', 'sales alignment', 'enablement', 'revenue']
 
 # ---------- Watchlist company boards (free public APIs, no key) ----------
+# Found with tools/discover_boards.py on 27 Oct 2026 and checked by hand. Format: board-id: Company name.
+# Full watchlist (96 companies) is in watchlist.csv; the rest are covered via LinkedIn / Naukri / iimjobs etc.
 watchlist:
-  greenhouse: [6sense, gongio, gitlab, databricks]
-  lever: [mindtickle, portcast, hevodata]
-  ashby: [atlan, levelpath, sarvam, deel]
+  greenhouse:
+    ivalua: Ivalua
+    fourkites: FourKites
+    contentstack: Contentstack
+    6sense: 6sense
+    fairmarkit: Fairmarkit
+    project44: project44
+    druva: Druva
+    observeai: Observe.AI
+    gongio: Gong
+    gitlab: GitLab
+    elastic: Elastic
+    databricks: Databricks
+  lever:
+    coupa: Coupa
+    mindtickle: Mindtickle
+    portcast: Portcast
+    zeta: Zeta
+    outreach: Outreach
+    tonkean: Tonkean
+    hevodata: Hevo Data
+  ashby:
+    zip: Zip
+    demandbase: Demandbase
+    spotdraft: SpotDraft
+    atlan: Atlan
+    ema: Ema
+    levelpath: Levelpath
+    sievo: Sievo
+    sarvam: Sarvam AI
+    oyster: Oyster HR
+    zapier: Zapier
+    snowflake: Snowflake
+  smartrecruiters:
+    freshworks: Freshworks
+    servicenow: ServiceNow
+  workable:
+    flosum: Flosum
+    zenara-health: Zenara Health
