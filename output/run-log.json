@@ -1,7 +1,7 @@
 {
   "jobspy:linkedin": {
-    "fetched": 240,
-    "secs": 148
+    "fetched": 180,
+    "secs": 115
   },
   "jobspy:indeed": {
     "fetched": 94,
@@ -9,32 +9,31 @@
   },
   "jobspy:naukri": {
     "fetched": 223,
-    "secs": 106
+    "secs": 108
   },
   "iimjobs": {
     "fetched": 60,
     "secs": 13
   },
   "foundit": {
-    "fetched": 0,
-    "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.apify.com/v2/acts/themineworks~foundit-jobs-scraper/run-sync-get-dataset-items?timeout=280&maxTotalChargeUsd=0.3&clean=true"
+    "fetched": 4,
+    "secs": 5
   },
   "instahyre": {
-    "note": "first run: recorded 40 existing jobs; new ones show from next run",
-    "fetched": 0,
-    "secs": 73
+    "fetched": 40,
+    "secs": 52
   },
   "wellfound": {
-    "fetched": 20,
-    "secs": 29
+    "fetched": 22,
+    "secs": 117
   },
   "yc_startups": {
-    "fetched": 0,
-    "error": "HTTPError: 400 Client Error: Bad Request for url: https://api.apify.com/v2/acts/nomad-agent~ycombinator-was-scraper/run-sync-get-dataset-items?timeout=280&maxTotalChargeUsd=0.3&clean=true"
+    "fetched": 120,
+    "secs": 39
   },
   "himalayas": {
     "fetched": 68,
-    "secs": 6
+    "secs": 5
   },
   "jobicy": {
     "fetched": 100,
@@ -54,21 +53,21 @@
   },
   "watchlist_boards": {
     "fetched": 1412,
-    "secs": 8
+    "secs": 3
   },
   "_summary": {
     "date": "2026-10-27",
-    "fetched": 2461,
-    "passed": 75,
-    "new": 75,
-    "shortlisted": 40,
+    "fetched": 2567,
+    "passed": 72,
+    "new": 36,
+    "shortlisted": 36,
     "rejected_by": {
-      "specialist": 10,
-      "title": 2189,
-      "location": 52,
+      "specialist": 8,
+      "title": 2322,
+      "location": 45,
       "title_excluded": 8,
-      "too_old": 30,
-      "below_floor": 19
+      "too_old": 33,
+      "below_floor": 18
     }
   }
 }
