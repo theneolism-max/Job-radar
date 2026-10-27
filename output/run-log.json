@@ -1,0 +1,53 @@
+{
+  "jobspy:linkedin": {
+    "fetched": 195,
+    "secs": 128
+  },
+  "jobspy:indeed": {
+    "fetched": 92,
+    "secs": 20
+  },
+  "jobspy:naukri": {
+    "fetched": 219,
+    "secs": 101
+  },
+  "iimjobs": {
+    "fetched": 0,
+    "error": "RuntimeError: APIFY_TOKEN not set"
+  },
+  "wellfound": {
+    "fetched": 0,
+    "error": "RuntimeError: APIFY_TOKEN not set"
+  },
+  "himalayas": {
+    "fetched": 68,
+    "secs": 7
+  },
+  "remoteok": {
+    "fetched": 100,
+    "secs": 1
+  },
+  "weworkremotely": {
+    "fetched": 135,
+    "secs": 1
+  },
+  "watchlist_boards": {
+    "fetched": 1412,
+    "secs": 3
+  },
+  "_summary": {
+    "date": "2026-10-27",
+    "fetched": 2221,
+    "passed": 71,
+    "new": 71,
+    "shortlisted": 40,
+    "rejected_by": {
+      "title": 1996,
+      "specialist": 5,
+      "location": 8,
+      "title_excluded": 7,
+      "too_old": 31,
+      "below_floor": 16
+    }
+  }
+}
