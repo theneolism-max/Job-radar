@@ -276,6 +276,115 @@ def himalayas() -> list[Job]:
     return out
 
 
+def first_run_for(source: str) -> bool:
+    """For boards that don't publish posting dates: the first run only records what's there,
+    later runs keep jobs that are new since the previous run (they count as recent)."""
+    path = ROOT / "state" / "seeded_sources.json"
+    seeded = json.loads(path.read_text()) if path.exists() else {}
+    if source in seeded:
+        return False
+    seeded[source] = NOW.date().isoformat()
+    path.parent.mkdir(exist_ok=True)
+    path.write_text(json.dumps(seeded, indent=0))
+    return True
+
+
+@guarded("foundit")
+def foundit() -> list[Job]:
+    if not APIFY_TOKEN:
+        raise RuntimeError("APIFY_TOKEN not set")
+    items = run_apify("themineworks/foundit-jobs-scraper", {
+        "searchKeywords": CFG["search_terms"], "location": "Mumbai,Navi Mumbai",
+        "experienceMinYears": 12, "postedWithinDays": "15", "employmentType": "Full Time",
+        "maxJobs": CFG["apify"]["foundit_max_jobs"], "includeJobDescription": False})
+    out = []
+    for i in items:
+        if not (i.get("title") and i.get("job_id")):
+            continue   # summary / message rows
+        posted = to_dt(i.get("date_posted"))
+        if posted is None and isinstance(i.get("posted_days_ago"), (int, float)):
+            posted = NOW - timedelta(days=i["posted_days_ago"])
+        lpa = i.get("salary_max_lakhs")
+        conf = i.get("salary_confidential")
+        out.append(Job("foundit", i["title"], i.get("company") or "", i.get("location") or "",
+                       i.get("apply_url") or "", posted, india_board=True,
+                       salary_inr_max=(lpa * 1e5 if lpa and not conf else None),
+                       salary_text=(f"{i.get('salary_min_lakhs')}-{lpa} LPA" if lpa and not conf else ""),
+                       snippet=clean(", ".join(i.get("industries") or []))))
+    return out
+
+
+@guarded("instahyre")
+def instahyre() -> list[Job]:
+    if not APIFY_TOKEN:
+        raise RuntimeError("APIFY_TOKEN not set")
+    items = run_apify("getascraper/instahyre-jobs-scraper", {
+        "jobFunctionSlugs": [], "keywords": ["marketing", "growth", "demand generation", "go-to-market"],
+        "keywordMatch": "any", "jobType": "full_time", "maxItems": CFG["apify"]["instahyre_max_jobs"],
+        "maxPages": 40, "monitorMode": "changes_only", "emitBaseline": True, "stateName": "job-radar-marketing"})
+    if first_run_for("instahyre"):
+        log("instahyre", note=f"first run: recorded {len(items)} existing jobs; new ones show from next run")
+        return []
+    out = []
+    for i in items:
+        if i.get("changeType") not in (None, "new", "NEW"):
+            continue
+        out.append(Job("instahyre", i.get("title") or i.get("candidateTitle") or "", i.get("companyName") or "",
+                       ", ".join(i.get("locations") or []) or i.get("locationsRaw") or "",
+                       i.get("publicUrl") or "", None, date_from_source_filter=True,
+                       remote=bool(i.get("isRemote")), india_board=True,
+                       snippet=clean(i.get("companyTagline") or "")))
+    return out
+
+
+@guarded("yc_startups")
+def yc_startups() -> list[Job]:
+    if not APIFY_TOKEN:
+        raise RuntimeError("APIFY_TOKEN not set")
+    out = []
+    for extra in ({"locations": ["India"]}, {"locationTypes": ["remote"]}):
+        items = run_apify("nomad-agent/ycombinator-was-scraper", {
+            "schemaVersion": "nomad-agent-simple-inventory-search-v2", "queries": ["marketing", "growth", "go to market"],
+            "postedWithin": f"{CFG['max_age_days']} days", "maxItems": 60,
+            "dedupe": {"enabled": False, "key": ""}, **extra})
+        for i in items:
+            allowed = ", ".join(i.get("applicantLocations") or [])
+            remote = (i.get("workType") or "").lower() == "remote"
+            loc = ", ".join(i.get("locations") or [])
+            if remote:
+                loc = f"Remote ({allowed or 'unspecified'})" + (f" | {loc}" if loc else "")
+            out.append(Job("yc_startups", i.get("title") or "", i.get("company") or "", loc,
+                           i.get("url") or "", to_dt(i.get("postedAt")), remote=remote,
+                           india_board="India" in extra.get("locations", []),
+                           salary_text=i.get("salary") or "", snippet=clean(i.get("description"), 200)))
+    return out
+
+
+@guarded("jobicy")
+def jobicy() -> list[Job]:
+    data = get_json("https://jobicy.com/api/v2/remote-jobs", params={"count": 100, "industry": "marketing"})
+    out = []
+    for j in data.get("jobs") or []:
+        out.append(Job("jobicy", j.get("jobTitle") or "", j.get("companyName") or "",
+                       f"Remote ({j.get('jobGeo') or 'unspecified'})", j.get("url") or "",
+                       to_dt(j.get("pubDate")), remote=True,
+                       snippet=clean(f"{j.get('jobLevel') or ''} {j.get('jobExcerpt') or ''}", 200)))
+    return out
+
+
+@guarded("remotive")
+def remotive() -> list[Job]:
+    # Remotive asks for at most a few requests a day; this is one request per run.
+    data = get_json("https://remotive.com/api/remote-jobs", params={"category": "marketing", "limit": 150})
+    out = []
+    for j in data.get("jobs") or []:
+        out.append(Job("remotive", j.get("title") or "", j.get("company_name") or "",
+                       f"Remote ({j.get('candidate_required_location') or 'unspecified'})", j.get("url") or "",
+                       to_dt(j.get("publication_date")), remote=True, salary_text=j.get("salary") or "",
+                       snippet=clean(j.get("description"), 200)))
+    return out
+
+
 @guarded("remoteok")
 def remoteok() -> list[Job]:
     data = get_json("https://remoteok.com/api", params={"tag": "marketing"})
@@ -410,7 +519,9 @@ def main():
     if src.get("naukri_apify") == "always" or (
             src.get("naukri_apify") == "fallback" and src.get("naukri") and not LOG.get("jobspy:naukri", {}).get("fetched")):
         jobs += naukri_apify()
-    for name, fn in (("iimjobs", iimjobs), ("wellfound", wellfound), ("himalayas", himalayas),
+    for name, fn in (("iimjobs", iimjobs), ("foundit", foundit), ("instahyre", instahyre),
+                     ("wellfound", wellfound), ("yc_startups", yc_startups),
+                     ("himalayas", himalayas), ("jobicy", jobicy), ("remotive", remotive),
                      ("remoteok", remoteok), ("weworkremotely", weworkremotely),
                      ("watchlist_boards", watchlist_boards)):
         if src.get(name):

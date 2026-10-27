@@ -20,9 +20,14 @@ sources:
   naukri: true
   google: false             # Google Jobs is often blocked from servers; turn on to try
   iimjobs: true             # Apify, needs APIFY_TOKEN
-  wellfound: true           # Apify, needs APIFY_TOKEN
+  foundit: true             # Apify (formerly Monster India)
+  instahyre: true           # Apify; no posting dates, so only jobs new since the last run are kept
+  wellfound: true           # Apify, startups
+  yc_startups: true         # Apify, Y Combinator "Work at a Startup" (India + remote)
   naukri_apify: fallback    # fallback = only if Naukri via JobSpy returns nothing; always; off
   himalayas: true
+  jobicy: true              # free remote-jobs API
+  remotive: true            # free remote-jobs API (max a few requests a day; we use one per run)
   remoteok: true
   weworkremotely: true
   watchlist_boards: true
@@ -32,6 +37,8 @@ apify:
   iimjobs_max_jobs: 60
   wellfound_max_results: 40
   naukri_max_per_term: 30
+  foundit_max_jobs: 60
+  instahyre_max_jobs: 40
 
 # ---------- Filters ----------
 title:
