@@ -156,7 +156,9 @@ def _jobspy_rows(df, source_label, india_board, from_filter, force_remote=False)
             company=str(r.get("company") or ""), location=str(r.get("location") or ""),
             url=str(r.get("job_url_direct") or r.get("job_url") or ""),
             posted=to_dt(r.get("date_posted")), date_from_source_filter=from_filter,
-            remote=force_remote or (bool(r.get("is_remote")) if r.get("is_remote") == r.get("is_remote") else False),
+            # LinkedIn's remote filter is unreliable: only trust it when no specific city is listed
+            remote=(force_remote and str(r.get("location") or "").strip().lower() in ("", "india", "nan"))
+                   or (bool(r.get("is_remote")) if r.get("is_remote") == r.get("is_remote") else False),
             india_board=india_board, salary_inr_max=sal, salary_text=txt,
             snippet=clean(r.get("description"))))
     return out
@@ -425,10 +427,10 @@ def main():
         j.score = prescore(j)
         prev = kept.get(j.key)
         if not prev or (j.posted and not prev.posted) or len(j.snippet) > len(prev.snippet):
-            if prev:
+            if prev and prev.source != j.source:
                 j.notes.append(f"also on {prev.source}")
             kept[j.key] = j
-        else:
+        elif prev.source != j.source:
             prev.notes.append(f"also on {j.source}")
 
     # drop already-seen roles
