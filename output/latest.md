@@ -1,33 +1,33 @@
-# Job Radar shortlist 2026-10-30 (26 new roles; 68 passed filters; 4063 fetched)
+# Job Radar shortlist 2026-11-03 (25 new roles; 75 passed filters; 4067 fetched)
 
-1. [82] Director, Revenue Operations (India) | Flosum | Remote-India (Remote (India)) | 2026-10-21 | himalayas | https://himalayas.app/companies/flosum/jobs/director-revenue-operations-india?utm_source=api
-   About FlosumFlosum is the only end-to-end platform purpose-built for Salesforce — trusted by Fortune 1000 enterprises, federal agencies, and high-growth organizations around the wo
-2. [76] Head of Growth | Urban Ridge Supplies | Remote-India (Remote (India)) | 2026-10-27 | himalayas | https://himalayas.app/companies/urban-ridge-supplies/jobs/head-of-growth?utm_source=api
-   About QureosWe’re on a mission to transform how the world hires, from a 60-day painful process to 12 days with the power of AI.
-3. [63] Head of Growth & Distribution – India | TTUKoffer | Remote-India (Remote (India)) | 2026-10-30 | himalayas | https://himalayas.app/companies/ttukoffer/jobs/head-of-growth-distribution-india?utm_source=api
-   Head of Growth & Distribution — IndiaLocation: Mumbai preferred; Bengaluru considered Employment Type: Full-time Seniority: Senior Management / Business Head Travel: Regular travel
-4. [63] Head of Enterprise Marketing | Descript | Remote-India (Remote (Anywhere in the World)) | 2026-10-28 | weworkremotely | https://weworkremotely.com/remote-jobs/descript-head-of-enterprise-marketing
-   Headquarters: San Francisco, CA or Remote, US ABOUT THE ROLE Descript is at an inflection point. We have 50M+ users, genuine product-market fit, and a real opportunity to move upma
-5. [63] Marketing Head | Overseas Corporate Professional | Remote-India (India) | 2026-10-28 | jobspy:naukri | https://www.naukri.com/job-listings-marketing-head-overseas-corporate-professional-ahmedabad-8-to-10-years-291026000010
-6. [63] Head of Marketing | B2C Growth | Tutubi | Remote-India (India) | 2026-10-22 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4480016840
-7. [63] Head of Growth Marketing | Enrich Labs | Remote-India (India) | 2026-10-19 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4478242657
-8. [59] Chief Marketing Officer (CMO) | Tripsmartcom | Remote-India (India) | 2026-10-30 | jobspy:naukri | https://www.naukri.com/job-listings-chief-marketing-officer-cmo-tripsmartcom-pune-28-to-31-years-301026020981
-9. [56] Growth Head (SaaS) | Zylu | Hybrid Bengaluru/Pune (Bengaluru South, Karnataka, India) | 2026-10-30 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4484819633
-10. [54] Marketing Head | Arsenius Skill Capital | Hybrid/Onsite Mumbai (Mumbai (All Areas), India) | 2026-10-30 | INR 5000000.0-5500000.0 yearly | jobspy:naukri | https://www.naukri.com/job-listings-marketing-head-arsenius-skill-capital-mumbai-all-areas-15-to-18-years-090226026638
-11. [54] Vice President - Growth & Client Management Lead: Influential | Publicis Groupe | Hybrid/Onsite Mumbai (Mumbai, Maharashtra, India) | 2026-10-28 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4484461531
-12. [52] AVP / VP MARKETING | For one of the Premium Apparel Manufacturing Company | Hybrid Bengaluru/Pune (Bengaluru, Karnataka, India) | 2026-10-30 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4484810399
-13. [51] Marketing Director | WhiteSlips Job Management Consultants | Hybrid/Onsite Mumbai (Mumbai, Maharashtra, India) | 2026-10-30 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4485311008
-14. [51] Director Performance Marketing | Interactive Avenues | Hybrid/Onsite Mumbai (Mumbai, Maharashtra, India) | 2026-10-30 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4485317331
-15. [51] Marketing Head | Hexagon Nutrition | Hybrid/Onsite Mumbai (Mumbai, India) | 2026-10-30 | jobspy:naukri | https://www.naukri.com/job-listings-marketing-head-hexagon-nutrition-mumbai-12-to-18-years-301026010082
-16. [51] Head - Marketing - Pharmaceutical | Persolkelly | Hybrid/Onsite Mumbai (Mumbai) | 2026-10-29 | iimjobs | https://www.iimjobs.com/j/head-marketing-pharmaceutical-1742624
-   Recruitment
-17. [51] Regional Relationship Head - Wholesale Solutions - Emerging & Growth Clients Group | Jaden Executive Search | Hybrid/Onsite Mumbai (Mumbai) | 2026-10-28 | iimjobs | https://www.iimjobs.com/j/regional-relationship-head-wholesale-solutions-emerging-growth-clients-group-1742551
-18. [51] Marketing Director | the LEGO Group | Hybrid/Onsite Mumbai (Mumbai, Maharashtra, India) | 2026-10-28 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4465927822
-19. [51] Director – Sales & Marketing | Sayantrik Engineer India Pvt. Ltd. | Hybrid/Onsite Mumbai (Mumbai Metropolitan Region) | 2026-10-27 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4483676788
-20. [46] Senior Vice President Marketing | CoinDCX | Hybrid Bengaluru/Pune (Bengaluru, Karnataka, India) | 2026-10-26 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4483517928
-21. [46] Vice President – Sales & Marketing | Vandey Global Services | Hybrid Bengaluru/Pune (Bengaluru, Karnataka, India) | 2026-10-19 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4480928916
-22. [43] Head of Marketing | Brick & Bolt | Hybrid Bengaluru/Pune (Bengaluru, Karnataka, India) | 2026-10-29 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4484501863
-23. [43] Head - Marketing | Xoxoday | Hybrid Bengaluru/Pune (Bengaluru East, Karnataka, India) | 2026-10-28 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4483877440
-24. [43] Head of F&B Marketing | Swiggy | Hybrid Bengaluru/Pune (Bengaluru, Karnataka, India) | 2026-10-27 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4483603588
-25. [43] Head of Global Marketing | PRED | Hybrid Bengaluru/Pune (Bengaluru, Karnataka, India) | 2026-10-21 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4480773933
-26. [43] Director, Business Growth & Strategy Leader | HARMAN India | Hybrid Bengaluru/Pune (Bengaluru, Karnataka, India) | 2026-10-19 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4478291962
+1. [76] Marketing Director | Portcast | Remote-India (Remote (Afghanistan, Albania, Algeria, American Samoa, Andor) | 2026-11-01 | himalayas | https://himalayas.app/companies/portcast/jobs/marketing-director?utm_source=api
+   Portcast is a venture-backed, Singapore-based logistics technology company building AI-powered intelligence for the freight forwarding industry.
+2. [76] Director of Growth (India-Based) | Vulcury | Remote-India (Remote (India)) | 2026-11-01 | himalayas | https://himalayas.app/companies/vulcury/jobs/director-of-growth-india-based?utm_source=api
+   This is a remote position. Director of Growth (India-Based)Location:India (Remote)Type:Full-time ContractorReports To:CEO, Vulcury LLC About VulcuryVulcury LLC is a venture studio 
+3. [76] Director of Marketing, Asia-Pacific & Japan | Axelera AI | Remote-India (India) | 2026-10-30 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4483473986
+4. [66] Director, Revenue Marketing, EMEA & APAC | Energy Exemplar | Remote-India (Remote (Afghanistan, Albania, Algeria, Andorra, Angola, Arme) | 2026-11-01 | himalayas | https://himalayas.app/companies/energy-exemplar/jobs/director-revenue-marketing-emea-apac?utm_source=api
+   About Energy ExemplarIn an era where the world is rapidly advancing towards a cleaner future through decarbonization, Energy Exemplar’s mission lies in ‘Empowering Transformative E
+5. [63] Director of Field Marketing | Wingstop Restaurants Inc. | Remote-India (India) | 2026-11-02 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4486176841
+6. [63] Head of Marketing | Jobgether | Remote-India (India) | 2026-11-02 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4485459228
+7. [63] Digital Marketing Director | 21K School | Remote-India (Remote (India)) | 2026-11-01 | himalayas | https://himalayas.app/companies/21k-school/jobs/digital-marketing-director?utm_source=api
+   This is a remote position. The VP-Marketing / Digital Marketing Director is primarily responsible for the management of digital marketing initiatives of the company while managing 
+8. [63] Business Head - Sales & Marketing - Hospitality | Laksh Consultants | Remote-India (Remote) | 2026-11-01 | iimjobs | https://www.iimjobs.com/j/business-head-sales-marketing-hospitality-1743253
+9. [63] Head of Marketing | Smart Moves Talent Crafters Pvt. Ltd. | Remote-India (India) | 2026-10-31 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4483922875
+10. [63] Director of Growth Marketing | Adit | Remote-India (India) | 2026-10-30 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4485357191
+11. [63] Director of Growth Marketing | Crewlia | Remote-India (India) | 2026-10-23 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4480619202
+12. [59] Chief Marketing Officer - Leading Tech Company | Kate Worthington | Remote-India (Remote (American Samoa, Australia, Bangladesh, Bhutan, Briti) | 2026-11-01 | himalayas | https://himalayas.app/companies/kate-worthington/jobs/chief-marketing-officer-leading-tech-company?utm_source=api
+   Job Highlights• Attractive monthly compensation • Outstanding commission and benefits (15 days annual leave + Abroad Outing Trips) • International & diverse work environment Positi
+13. [57] Head - Marketing - B2C Manufacturing Business | Jaden Executive Search | Hybrid/Onsite Mumbai (Mumbai) | 2026-11-03 | iimjobs | https://www.iimjobs.com/j/head-marketing-b2c-manufacturing-business-1743717
+14. [54] VP - Growth - Earthful | WapHire | Hybrid/Onsite Mumbai (Mumbai, Maharashtra, India) | 2026-10-23 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4482804333
+15. [51] Director-Marketing | Cedar Management Consulting International | Hybrid/Onsite Mumbai (Mumbai Metropolitan Region) | 2026-11-03 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4484685071
+16. [51] Director of Marketing & Public Relations | The Ritz-Carlton Hotel Company, L.L.C. | Hybrid/Onsite Mumbai (Mumbai, Maharashtra, India) | 2026-11-03 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4478727162
+17. [51] Head of Digital Marketing | whizz hr | Hybrid/Onsite Mumbai (Mumbai, India) | 2026-11-02 | foundit | https://www.foundit.in/job/head-of-digital-marketing-whizz-hr-mumbai-india-69679202
+   Other
+18. [51] Growth Director - CleverAI | CleverTap | Hybrid/Onsite Mumbai (Mumbai, Maharashtra, India) | 2026-11-02 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4484384248
+19. [51] Marketing Head | INDIAN SCHOOL OF BUSINESS MANAGEMENT AND ADMINISTRATION | Hybrid/Onsite Mumbai (Mumbai, Maharashtra, India) | 2026-10-31 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4485126864
+20. [47] Co-Founder, Chief Marketing & Transformation Officer(CMTO) with Investment | Yuvrus Botanicals | Hybrid/Onsite Mumbai (Mumbai, Maharashtra, India) | 2026-11-03 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4483960154
+21. [47] Chief Marketing Officer - Fine Dining - F&B | Tamarind Executive Search Firm | Hybrid/Onsite Mumbai (Mumbai) | 2026-11-02 | iimjobs | https://www.iimjobs.com/j/chief-marketing-officer-fine-dining-fb-1743366
+22. [46] Director - Demand Generation & Growth | Neo | Hybrid Bengaluru/Pune (Bengaluru, Karnataka, India) | 2026-11-02 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4485448867
+23. [43] Head of Marketing | Stahl Kitchens | Hybrid Bengaluru/Pune (Pune City, Maharashtra, India) | 2026-11-03 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4484634688
+24. [43] Head of Marketing | WhiteSlips Job Management Consultants | Hybrid Bengaluru/Pune (Bengaluru East, Karnataka, India) | 2026-11-02 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4486137444
+25. [39] Chief Marketing Officer (PSS08008) | Personnel Search Services Group | Hybrid Bengaluru/Pune (Bengaluru, Karnataka, India) | 2026-11-03 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4477979229

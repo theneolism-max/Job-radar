@@ -1,19 +1,19 @@
 {
   "jobspy:linkedin": {
-    "fetched": 295,
-    "secs": 168
+    "fetched": 300,
+    "secs": 165
   },
   "jobspy:indeed": {
-    "fetched": 91,
+    "fetched": 95,
     "secs": 21
   },
   "jobspy:naukri": {
-    "fetched": 228,
-    "secs": 98
+    "fetched": 225,
+    "secs": 96
   },
   "iimjobs": {
     "fetched": 60,
-    "secs": 18
+    "secs": 14
   },
   "foundit": {
     "fetched": 3,
@@ -21,26 +21,26 @@
   },
   "instahyre": {
     "fetched": 40,
-    "secs": 49
+    "secs": 52
   },
   "wellfound": {
-    "fetched": 26,
-    "secs": 24
+    "fetched": 22,
+    "secs": 56
   },
   "yc_startups": {
     "fetched": 120,
-    "secs": 37
+    "secs": 42
   },
   "himalayas": {
-    "fetched": 49,
-    "secs": 7
+    "fetched": 48,
+    "secs": 9
   },
   "jobicy": {
     "fetched": 100,
     "secs": 1
   },
   "remotive": {
-    "fetched": 12,
+    "fetched": 10,
     "secs": 0
   },
   "remoteok": {
@@ -48,25 +48,25 @@
     "secs": 1
   },
   "weworkremotely": {
-    "fetched": 131,
+    "fetched": 127,
     "secs": 1
   },
   "watchlist_boards": {
-    "fetched": 2808,
-    "secs": 53
+    "fetched": 2817,
+    "secs": 13
   },
   "_summary": {
-    "date": "2026-10-30",
-    "fetched": 4063,
-    "passed": 68,
-    "new": 26,
-    "shortlisted": 26,
+    "date": "2026-11-03",
+    "fetched": 4067,
+    "passed": 75,
+    "new": 25,
+    "shortlisted": 25,
     "rejected_by": {
-      "title": 3738,
-      "specialist": 12,
-      "location": 68,
-      "too_old": 42,
-      "title_excluded": 10,
+      "title": 3734,
+      "location": 57,
+      "specialist": 18,
+      "too_old": 44,
+      "title_excluded": 12,
       "below_floor": 17
     }
   }
