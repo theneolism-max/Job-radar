@@ -1,18 +1,23 @@
-# Job Radar shortlist 2026-11-13 (15 new roles; 63 passed filters; 4013 fetched)
+# Job Radar shortlist 2026-11-17 (21 new roles; 64 passed filters; 4009 fetched)
 
-1. [66] Senior Vice President – Marketing | Emeritus | Remote-India (India) | 2026-11-11 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4489973177
-2. [57] Head - BD & Marketing - EPC | Manpower Resources India | Hybrid/Onsite Mumbai (Mumbai, Vadodara, India) | 2026-11-13 | INR 3500000.0-6500000.0 yearly | jobspy:naukri | https://www.naukri.com/job-listings-head-bd-marketing-epc-manpower-resources-india-mumbai-vadodara-15-to-24-years-131126032254
-3. [56] Head of Marketing - SaaS | Talentiser | Hybrid Bengaluru/Pune (Greater Bengaluru Area) | 2026-11-13 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4489553224
-4. [56] AI Solutions & Business Growth - Head | Value Lane Consulting | Hybrid Bengaluru/Pune (Bengaluru, India) | 2026-11-13 | jobspy:naukri | https://www.naukri.com/job-listings-ai-solutions-business-growth-head-value-lane-consulting-bengaluru-12-to-20-years-131126032149
-5. [51] Head - Marketing & Business Development - EPC - Power Infrastructure | Manpower Resources | Hybrid/Onsite Mumbai (Mumbai, Vadodara/Baroda, Gujarat) | 2026-11-13 | iimjobs | https://www.iimjobs.com/j/head-marketing-business-development-epc-power-infrastructure-1745547
-6. [51] Head of Marketing | 9Point Capital | Hybrid/Onsite Mumbai (Mumbai, Maharashtra, India) | 2026-11-13 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4488940147
-7. [51] GM- Marketing head - Acute | Destinationhr | Hybrid/Onsite Mumbai (Mumbai Suburban, Mumbai (All Areas), India) | 2026-11-13 | jobspy:naukri | https://www.naukri.com/job-listings-gm-marketing-head-acute-destinationhr-mumbai-suburban-mumbai-all-areas-12-to-20-years-131126017595
-8. [51] AstaGuru - Director - Marketing | ASTAGURU AUCTION HOUSE PRIVATE LIMITED | Hybrid/Onsite Mumbai (Mumbai) | 2026-11-12 | iimjobs | https://www.iimjobs.com/j/astaguru-director-marketing-1745203
-   Other
-9. [49] Head Marketing | Bejobbed Incorporation | Hybrid Bengaluru/Pune (Bengaluru, India) | 2026-11-12 | INR 7500000.0-9000000.0 yearly | jobspy:naukri | https://www.naukri.com/job-listings-head-marketing-bejobbed-incorporation-bengaluru-10-to-15-years-121126035540
-10. [46] GTM Technology Director | SiteMinder | Hybrid Bengaluru/Pune (Pune Division, Maharashtra, India) | 2026-11-12 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4488503968
-11. [43] Head of Marketing | Youthville Serviced Accommodations | Hybrid Bengaluru/Pune (Pune Division, Maharashtra, India) | 2026-11-13 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4488941019
-12. [43] Head - Marketing | The Management Recruitment Group (MRG) | Hybrid Bengaluru/Pune (Pune Division, Maharashtra, India) | 2026-11-13 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4489559676
-13. [43] Head of Growth – D2C & Quick Commerce | Uni Seoul | Hybrid Bengaluru/Pune (Pune Division, Maharashtra, India) | 2026-11-12 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4485093001
-14. [43] Head- Marketing operations - GO/JC/4947/2026 | Golden Opportunities | Hybrid Bengaluru/Pune (Bengaluru, Karnataka, India) | 2026-11-10 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4488644284
-15. [43] Head of Marketing, NIRA | Tilt | Hybrid Bengaluru/Pune (Greater Bengaluru Area) | 2026-11-09 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4489109011
+1. [63] Director of Marketing & Client Strategy | Groie | Remote-India (India) | 2026-11-16 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4489750739
+2. [63] Marketing Head | MSM Global Education | Remote-India (India) | 2026-11-16 | jobspy:naukri | https://www.naukri.com/job-listings-marketing-head-msm-global-education-gurugram-4-to-8-years-161126025781
+3. [56] Director, GTM Operations | Zapier | Remote (eligibility unclear) (NAMER) | 2026-11-13 | ashby:zapier | https://jobs.ashbyhq.com/zapier/79f0aa77-7a24-4246-a623-a37fb2149de6
+4. [54] Marketing Materials Vice President | JPMorganChase | Hybrid/Onsite Mumbai (Mumbai, Maharashtra, India) | 2026-11-16 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4489792869
+5. [51] Head - Marketing - Beauty & Lifestyle - D2C | Lagrange Point International | Hybrid/Onsite Mumbai (Mumbai) | 2026-11-17 | iimjobs | https://www.iimjobs.com/j/head-marketing-beauty-lifestyle-d2c-1746025
+6. [51] Head of Marketing-Healthcare | Magnet HR Tech Digital | Hybrid/Onsite Mumbai (Mumbai Metropolitan Region) | 2026-11-16 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4490620396
+7. [51] Head of Marketing | BitDelta India | Hybrid/Onsite Mumbai (Mumbai, Maharashtra, India) | 2026-11-16 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4490601673
+8. [51] Sales and Marketing Head | Brickwork Ratings | Hybrid/Onsite Mumbai (Mumbai, Maharashtra, India) | 2026-11-16 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4490292073
+9. [51] Sales & Marketing Head – Domestic Formulations - JG | IAssess Consultants LLP | Hybrid/Onsite Mumbai (Mumbai Metropolitan Region) | 2026-11-16 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4490640158
+10. [51] Head of Growth - D2C | Earthful.me | Hybrid/Onsite Mumbai (Mumbai, Maharashtra, India) | 2026-11-16 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4490282394
+11. [51] Head - Marketing & Business Development - EPC Business | Manpower Resources | Hybrid/Onsite Mumbai (Mumbai, Vadodara/Baroda, Gujarat) | 2026-11-14 | iimjobs | https://www.iimjobs.com/j/head-marketing-business-development-epc-business-1745547
+12. [47] Chief Marketing Officer - Personal Care | Bridge Associates | Hybrid/Onsite Mumbai (Pune, Mumbai) | 2026-11-14 | iimjobs | https://www.iimjobs.com/j/chief-marketing-officer-personal-care-1745598
+13. [46] Head - Marketing | Sowparnika | Hybrid Bengaluru/Pune (Bengaluru, India) | 2026-11-17 | INR 3500000.0-5000000.0 yearly | jobspy:naukri | https://www.naukri.com/job-listings-head-marketing-sowparnika-bengaluru-20-to-25-years-171126028781
+14. [46] Head of Revenue- D2C & E-Com Growth | Monrow World | Hybrid Bengaluru/Pune (Bengaluru, Karnataka, India) | 2026-11-11 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4488224214
+15. [43] Strategy & Marketing Head, Dengue | Takeda | Hybrid Bengaluru/Pune (Bengaluru, Karnataka, India) | 2026-11-17 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4491115405
+16. [43] Head of Marketing - Growth | Breakout | Hybrid Bengaluru/Pune (Bengaluru, Karnataka, India) | 2026-11-17 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4491150982
+17. [43] Head of Growth | Valley | Hybrid Bengaluru/Pune (Greater Bengaluru Area) | 2026-11-17 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4491552942
+18. [43] Digital Marketing Director | upGrad | Hybrid Bengaluru/Pune (Bengaluru, Karnataka, India) | 2026-11-17 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4491134120
+19. [43] Digital Marketing Head | Voidstar Experiences | Hybrid Bengaluru/Pune (Pune(Bavdhan), India) | 2026-11-17 | jobspy:naukri | https://www.naukri.com/job-listings-digital-marketing-head-voidstar-experiences-pune-2-to-5-years-171126030073
+20. [43] Head of Digital Marketing | Calpion Software Technologies | Hybrid Bengaluru/Pune (Bengaluru, India) | 2026-11-17 | jobspy:naukri | https://www.naukri.com/job-listings-head-of-digital-marketing-calpion-software-technologies-bengaluru-10-to-15-years-100826921207
+21. [43] Director- Marketing | Pune | Searce Inc | Hybrid Bengaluru/Pune (Pune District, Maharashtra, India) | 2026-11-16 | jobspy:linkedin | https://www.linkedin.com/jobs/view/4489766792
